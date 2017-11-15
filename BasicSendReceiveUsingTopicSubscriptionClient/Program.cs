@@ -13,15 +13,10 @@ namespace BasicSendReceiveUsingTopicSubscriptionClient
     {
         // Connection String for the namespace can be obtained from the Azure portal under the 
         // 'Shared Access policies' section.
-        const string ServiceBusConnectionString = "Endpoint=sb://pluralsightsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=D2jbh7s0rBHfgdpKFEJW9keuAjAQ0XZc7YVdIRPbeYk=";
-        const string TopicName = "pssbtopic";
-        const string FirstSubscriptionName = "firstSubscription";
-        const string SecondSubscriptionName = "secondSubscription";
-
-        //const string ServiceBusConnectionString = "{ServiceBus connection string}";
-        //const string TopicName = "{Topic Name}";
-        //const string FirstSubscriptionName = "{First Subscription Name}";
-        //const string SecondSubscriptionName = "{Second Subscription Name}";
+        const string ServiceBusConnectionString = "{ServiceBus connection string}";
+        const string TopicName = "{Topic Name}";
+        const string FirstSubscriptionName = "{First Subscription Name}";
+        const string SecondSubscriptionName = "{Second Subscription Name}";
         static ITopicClient topicClient;
         static ISubscriptionClient firstSubscriptionClient;
         static ISubscriptionClient secondSubscriptionClient;

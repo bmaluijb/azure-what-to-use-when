@@ -13,11 +13,8 @@ namespace BasicSendReceiveUsingQueueClient
     {
         // Connection String for the namespace can be obtained from the Azure portal under the 
         // 'Shared Access policies' section.
-        const string ServiceBusConnectionString = "Endpoint=sb://pluralsightsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=D2jbh7s0rBHfgdpKFEJW9keuAjAQ0XZc7YVdIRPbeYk=";
-        const string QueueName = "pssbqueue";
-
-        //const string ServiceBusConnectionString = "{ServiceBus connection string}";
-        //const string QueueName = "{Queue Name}";
+        const string ServiceBusConnectionString = "{ServiceBus connection string}";
+        const string QueueName = "{Queue Name}";
         static IQueueClient queueClient;
 
         static void Main(string[] args)
