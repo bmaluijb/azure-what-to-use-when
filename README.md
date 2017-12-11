@@ -23,7 +23,7 @@ In order to run the projects in the solution, you need the following:
  - Visual Studio 2017
  - .NET Core 2.0
  - An Azure Service Bus account with one Queue, one Topic and two Subscriptions to that Topic
- - An Azure Cosmos DB account
+ - An Azure Cosmos DB account using the Table API
  
 And for the projects specifically:
  - BasicSendReceiveUsingQueueClient
