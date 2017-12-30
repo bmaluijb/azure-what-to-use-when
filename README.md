@@ -5,7 +5,7 @@
 Hi! 
 
 Welcome to the GitHub repository for the Microsoft Azure for Developers: What to Use When? Pluralsight course.
-This repository contains the examples for the Pluralsight course: [Microsoft Azure for Developers: What to Use When?](https://app.pluralsight.com/library/courses/dotnet-ecosystem-big-picture).
+This repository contains the examples for the Pluralsight course: [Microsoft Azure for Developers: What to Use When?](https://app.pluralsight.com/library/courses/microsoft-azure-developers-what-to-use/).
 
 The solution consists of:
 
